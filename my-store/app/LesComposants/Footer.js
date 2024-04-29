@@ -1,44 +1,24 @@
 
 import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
-    return (
-        <nav className="HeadFoot navbar navbar-expand-md">
-            
-                <div className="col-md-12">
-                <h6 className="roboto-font bienvenue">@copyright2024</h6>
-                
-                    <section className="mb-4 reseauSociaux">
-                       
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-facebook-f "></i>
-                        </a>
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-twitter"></i>
-                        </a>
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-google"></i>
-                        </a>
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-instagram"></i>
-                        </a>
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-linkedin-in"></i>
-                        </a>
-                        <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
-                            <i className="fab fa-github"></i>
-                        </a>
+  return (
 
-                    </section>
-                    <Link href="#!"className="card-link"><h1 className="parisienne-font bienvenue">À propos</h1></Link>
-                
-                </div>
-
-                
-                
-            
-        </nav>
-    );
+    <div className="container-fluid footer">
+    <div className="row">
+      <footer>
+        <div id="expertise-text">@copyright2024</div>
+        <Link href="https://www.facebook.com/" target="_blank"><Image className="img" src="/images/facebook-logo.png" alt="Facebook" width={100} height={40} priority /></Link>
+        <Link href="https://twitter.com/" target="_blank"><Image className="img" src="/images/twitter-logo.png" alt="Twitter" width={100} height={40} priority /></Link>
+        <Link href="https://www.linkedin.com/" target="_blank"><Image className="img" src="/images/linkedin-logo.png" alt="LinkedIn" width={100} height={40} priority /></Link>
+        
+        <div id="expertise-text">À propos</div>
+      </footer>
+    </div>
+  </div>
+     
+  );
 }
 
 export default Footer;

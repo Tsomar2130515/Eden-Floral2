@@ -16,10 +16,10 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav d-flex justify-content-between flex-grow-1">
                             <li className="nav-item">
-                                <Link className="me-5 header-link parisienne-font" href="#">Accueil</Link>
+                                <Link className="me-5 header-link parisienne-font" href="./">Accueil</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="me-5 header-link parisienne-font" href="#">Inspiration</Link>
+                                <Link className="me-5 header-link parisienne-font" href="../Inspiration">Inspiration</Link>
                             </li>
                             <li className="nav-item d-flex align-items-center">
                                 <Link className="me-5 header-link parisienne-font" href="#">Mon panier

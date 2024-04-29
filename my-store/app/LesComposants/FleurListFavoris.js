@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react"; 
-import FleurCard from "./FleurCard";
+import FleurCardFav from "./FleurCardFav";
 
 function FleurListFavoris() {
     const [fleurs, setFleurs] = useState([]);
@@ -15,7 +15,7 @@ function FleurListFavoris() {
             .catch(error => console.error('Erreur lors de la récupération des fleurs:', error));
     }, []);
 
-    // Filtrer les fleurs disponibles qui sont également favorites
+    
     const filteredFleurs = fleurs.filter(fleur => fleur.disponible && fleur.favorie);
 
     return (
@@ -24,13 +24,14 @@ function FleurListFavoris() {
             <div className="row ">
                 {filteredFleurs.map(fleur => (
                     
-                        <FleurCard
+                        <FleurCardFav
                             id={fleur.id}
                             nom={fleur.nom}
                             description={fleur.description}
                             prix={fleur.prix}
                             disponible={fleur.disponible}
                             favorie={fleur.favorie}
+                            stock = {fleur.stock}
                             image={fleur.image}
                         />
                    

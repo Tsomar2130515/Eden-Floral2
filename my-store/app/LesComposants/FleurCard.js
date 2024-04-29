@@ -2,9 +2,10 @@ import Link from "next/link";
 import React from 'react';
 import BoutonConsulter from './BoutonConsulter'; 
 import BoutonAjouterPanier from "./BoutonAjouterPanier";
+import BarreAjustPanier from "./BarreAjustPanier";
 
-function FleurCard({ id, nom, description, prix, disponible, image, favorie }) {
-    if (!disponible || !favorie) {
+function FleurCard({ id, nom, description, prix, disponible, image, favorie ,stock}) {
+    if (!disponible ) {
         return null; 
     }
 
@@ -13,7 +14,7 @@ function FleurCard({ id, nom, description, prix, disponible, image, favorie }) {
 
     return (
         <div className="col-md-6  ">
-            <Link href={`/unBlog/${id}`} className="card-link">
+            
                 <div className="card mb-3">
                     <img src={image} className="card-img-top" alt="Une fleur" />
                     <div className="card-body testClick">
@@ -23,18 +24,24 @@ function FleurCard({ id, nom, description, prix, disponible, image, favorie }) {
                         <p className="card-text  prix">{prix} $</p>
   
                         </div>
+                        <p className="card-text stock">Restant en stock : {stock} </p>
                         
                         <div className="container">
                             <div className="row">
-                                <BoutonConsulter className="col"/>
+                            
+                                <BoutonConsulter className="col" id={id}/>
+                            
+                            
                                 <BoutonAjouterPanier className="col"/>
+                           
                             </div>
                         </div>
+                        <BarreAjustPanier className="col"/>
                         
                     </div>
                    
                 </div>
-            </Link>
+            
         </div>   
     );
     

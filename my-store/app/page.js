@@ -4,11 +4,14 @@ import Footer from './LesComposants/Footer';
 import MotDeBienvenue from './LesComposants/MotDeBienvenue';
 import CoupsDeCoeurClients from './LesComposants/CoupsDeCoeurClients';
 import BarreDeRecherche from './LesComposants/BarreDeRecherche';
+import BandePromotionnel from './LesComposants/BandePromotionnel';
+
 
 export default function Home() {
     return (
         <main >
             <Header />
+            <BandePromotionnel />
             <div className="background-image">
             
                 <BarreDeRecherche/>

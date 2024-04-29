@@ -3,11 +3,11 @@
     {
       "id": 1,
       "nom": "Charme Rosé",
-      "description": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp.",
+      "description": "Description pour charme rosé",
       "prix": 3.99,
       "disponible": true,
       "favorie": false,
-
+      "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
     },
     {
@@ -17,6 +17,7 @@
       "prix": 2.99,
       "disponible": true,
       "favorie": true,
+      "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
     },
     {
@@ -26,6 +27,7 @@
       "prix": 4.99,
       "disponible": true,
       "favorie": true,
+      "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
     },
     {
@@ -35,6 +37,7 @@
       "prix": 6.99,
       "disponible": true,
       "favorie": true,
+      "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
     },
     {
@@ -44,6 +47,7 @@
       "prix": 1.99,
       "disponible": true,
       "favorie": false,
+      "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
     }
   ]

@@ -10,7 +10,7 @@ export default function Home(){
       <BandePromotionnel />
       <BarreDeRecherche />
 
-      <div className="inspiration-page ">
+      <div className="background-image2 ">
         <h1>Découvrez nos créations florales</h1>
         <div className="creations-grid">
           <div className="creation-card">

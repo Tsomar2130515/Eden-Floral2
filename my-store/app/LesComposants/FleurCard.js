@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from 'react';
 import BoutonConsulter from './BoutonConsulter'; 
 import BoutonAjouterPanier from "./BoutonAjouterPanier";
-import BarreAjustPanier from "./BarreAjustPanier";
+
 
 function FleurCard({ id, nom, description, prix, disponible, image, favorie ,stock}) {
     if (!disponible ) {
@@ -13,9 +13,10 @@ function FleurCard({ id, nom, description, prix, disponible, image, favorie ,sto
     const descriptionCourte = description.length > 100 ? `${description.slice(0, 100)}...` : description;
 
     return (
-        <div className="col-md-6  ">
+        <div className="col-md-4  ">
             
-                <div className="card mb-3">
+            
+                <div className="card mb-5">
                     <img src={image} className="card-img-top" alt="Une fleur" />
                     <div className="card-body testClick">
                         <h5 className="card-title parisienne-font ">{nom}</h5>
@@ -32,16 +33,16 @@ function FleurCard({ id, nom, description, prix, disponible, image, favorie ,sto
                                 <BoutonConsulter className="col" id={id}/>
                             
                             
-                                <BoutonAjouterPanier className="col"/>
+                                <BoutonAjouterPanier className="col" fleurId={id} nom= {nom} prix={prix} image={image} stock={stock} />
                            
                             </div>
                         </div>
-                        <BarreAjustPanier className="col"/>
+                        
                         
                     </div>
                    
                 </div>
-            
+               
         </div>   
     );
     

@@ -152,7 +152,7 @@ p{
 }
 .background-image2 {
   position: relative;
-  background-color: #FFA07A;
+  background-color: wheat;
   background-size: cover;
   background-position: center;
   padding: 5%;
@@ -460,7 +460,7 @@ input[type="number"] {
 
 /* Style pour la page d'inspiration */
 .inspiration-page {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -473,16 +473,19 @@ input[type="number"] {
 .creations-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 300px;
+  
 }
 
 .creation-card {
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px;
+  padding: 2px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .creation-card img {
@@ -521,6 +524,13 @@ input[type="number"] {
   font-style: italic;
   color: #666;
 }
+
+.btnValid {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Styles pour le header, le footer et la barre de recherche peuvent être ajoutés ici ou dans d'autres fichiers CSS séparés */
 

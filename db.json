@@ -1,54 +1,59 @@
 {
   "fleurs": [
     {
-      "id": 1,
       "nom": "Charme Rosé",
       "description": "Description pour charme rosé Description pour charme rosé Description pour charme rosé Description pour charme roséDescription pour charme rosé ",
-      "prix": 3.99,
-      "disponible": true,
-      "favorie": false,
-      "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "prix": "3.99",
+      "disponible": "true",
+      "favorie": "true",
+      "stock": "6",
+      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
+      "lienPaiement": "https://buy.stripe.com/test_28o5ofax70C71CocMT",
+      "id": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "nom": "Tulipe éclatante",
       "description": "Une tulipe, éclatante de couleurs vives et vibrantes, pour illuminer chaque instant de votre journée. Symbole de renouveau et de joie, cette fleur gracieuse apporte une touche de fraîcheur et de vitalité à n'importe quel environnement. Que ce soit dans un bouquet éclatant ou en solitaire dans un vase, la tulipe multicolore évoque la beauté de la nature et l'émerveillement devant sa diversité. Sa silhouette élégante et ses pétales délicats captent la lumière et attirent le regard, créant une atmosphère joyeuse et lumineuse. Laissez-vous enchanter par la grâce et la vivacité de cette fleur emblématique, et laissez-la embellir votre quotidien de sa présence éclatante.",
       "prix": 2.99,
       "disponible": true,
       "favorie": true,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
+      "lienPaiement": "https://buy.stripe.com/test_dR63g76gR3Oj94Q4go"
     },
     {
-      "id": 3,
       "nom": "Lys blanc ",
       "description": "Le lys blanc, symbole d'élégance et de pureté, apporte une touche de raffinement et de noblesse à votre environnement. Avec ses pétales délicats d'un blanc immaculé et son parfum envoûtant, cette fleur incarne la grâce et la splendeur. Que ce soit en bouquet ou en solitaire, le lys blanc évoque une aura de sophistication et de tranquillité, transformant votre espace en un véritable sanctuaire de beauté. Sa présence majestueuse ajoute une touche de magie à chaque pièce, créant une ambiance apaisante et inspirante. Laissez-vous envoûter par la pureté et l'élégance intemporelle de cette fleur emblématique, et transformez votre décor en un véritable tableau de grâce et de sérénité.",
-      "prix": 4.99,
-      "disponible": true,
-      "favorie": true,
-      "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "prix": "4.99",
+      "disponible": "true",
+      "favorie": "true",
+      "stock": "6",
+      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
+      "lienPaiement": "https://buy.stripe.com/test_dR6bMD48JckP4OA6ox",
+      "id": "3"
     },
     {
-      "id": 4,
+      "id": "4",
       "nom": "Pivoine rose ",
       "description": "La pivoine rose, incarnation même de la délicatesse et de la romance, est une fleur qui émeut par sa beauté et sa tendresse infinie. Ses pétales doux et luxuriants s'épanouissent dans des nuances de rose envoûtantes, capturant ainsi l'essence même de l'amour et de la passion. Offrir une pivoine rose, c'est offrir un instant de grâce et de tendresse, un geste empreint de douceur et de romantisme. Sa présence dans un bouquet apporte une touche d'élégance et de raffinement, transformant chaque arrangement floral en une véritable déclaration d'affection. Laissez-vous séduire par la splendeur éclatante de la pivoine rose, et laissez son charme envoûter votre cœur et votre esprit, vous transportant dans un monde où la beauté et la tendresse règnent en maîtres.",
       "prix": 6.99,
       "disponible": true,
       "favorie": true,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
+      "lienPaiement": "https://buy.stripe.com/test_3cs3g79t370v6WI5kq"
     },
     {
-      "id": 5,
+      "id": "5",
       "nom": "Lavande parfumée",
       "description": "La lavande parfumée, symbole de sérénité et de bien-être, offre une expérience sensorielle unique pour apaiser l'esprit et détendre le corps. Avec son parfum délicat et apaisant, la lavande crée une ambiance harmonieuse et relaxante, transformant instantanément votre maison en un havre de paix. Que ce soit utilisée dans des bouquets, des sachets parfumés ou des huiles essentielles, la lavande évoque un sentiment de fraîcheur et d'équilibre, invitant à la détente et à la méditation. Sa présence subtile apporte une touche de nature et de raffinement à chaque pièce, créant ainsi un environnement propice au repos et à la relaxation. Laissez-vous transporter par les douces effluves de la lavande parfumée, et laissez son parfum enivrant vous envelopper dans un cocon de tranquillité et de bien-être.",
       "prix": 1.99,
       "disponible": true,
       "favorie": false,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
+      "lienPaiement": "https://buy.stripe.com/test_3csdULdJj2Kfgxi7sx"
     }
   ]
 }

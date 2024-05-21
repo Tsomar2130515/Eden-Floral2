@@ -8,7 +8,7 @@ export default function AjoutPublication() {
     async function handleSubmit(formData) {
         if (window.confirm("Voulez-vous vraiment envoyer cette fleur ?")) {
             await SendFleur(formData);
-            router.push('/');
+            router.push('../inventaire');
         }
     }
 

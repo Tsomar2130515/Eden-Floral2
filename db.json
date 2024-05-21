@@ -12,15 +12,15 @@
       "id": "1"
     },
     {
-      "id": "2",
       "nom": "Tulipe éclatante",
       "description": "Une tulipe, éclatante de couleurs vives et vibrantes, pour illuminer chaque instant de votre journée. Symbole de renouveau et de joie, cette fleur gracieuse apporte une touche de fraîcheur et de vitalité à n'importe quel environnement. Que ce soit dans un bouquet éclatant ou en solitaire dans un vase, la tulipe multicolore évoque la beauté de la nature et l'émerveillement devant sa diversité. Sa silhouette élégante et ses pétales délicats captent la lumière et attirent le regard, créant une atmosphère joyeuse et lumineuse. Laissez-vous enchanter par la grâce et la vivacité de cette fleur emblématique, et laissez-la embellir votre quotidien de sa présence éclatante.",
-      "prix": 2.99,
-      "disponible": true,
-      "favorie": true,
-      "stock": 5,
+      "prix": "2.99",
+      "disponible": "true",
+      "favorie": "true",
+      "stock": "13",
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
-      "lienPaiement": "https://buy.stripe.com/test_dR63g76gR3Oj94Q4go"
+      "lienPaiement": "https://buy.stripe.com/test_dR63g76gR3Oj94Q4go",
+      "id": "2"
     },
     {
       "nom": "Lys blanc ",
@@ -54,6 +54,13 @@
       "stock": 5,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
       "lienPaiement": "https://buy.stripe.com/test_3csdULdJj2Kfgxi7sx"
+    }
+  ],
+  "User": [
+    {
+      "id": "1",
+      "nom": "admin",
+      "password": "admin"
     }
   ]
 }

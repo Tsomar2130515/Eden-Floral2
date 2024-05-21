@@ -33,7 +33,7 @@ export default function updateFleur({ id }) {
     async function handleSubmit(formData) {
         if (window.confirm("Voulez-vous vraiment envoyer cette publication ?")) {
             await SendFleurUpdate(formData);
-            router.push('/');
+            router.push('../inventaire');
         }
     }
 

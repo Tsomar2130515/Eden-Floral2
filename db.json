@@ -3,12 +3,13 @@
     {
       "id": 1,
       "nom": "Charme Rosé",
-      "description": "Description pour charme rosé Description pour charme rosé Description pour charme rosé Description pour charme roséDescription pour charme rosé ",
+      "description": "La rose est une fleur emblématique, souvent considérée comme un symbole de beauté et d'amour. Elle appartient à la famille des Rosacées et se décline en une multitude de variétés, offrant une riche palette de couleurs allant du blanc pur au rouge profond, en passant par le rose, le jaune, et même le bleu. ",
       "prix": 3.99,
       "disponible": true,
       "favorie": false,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://cdn.pixabay.com/photo/2023/11/06/15/03/rose-blossom-8369834_640.jpg",
+      "lienPaiement":"https://buy.stripe.com/test_28o5ofax70C71CocMT"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "disponible": true,
       "favorie": true,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://cdn.pixabay.com/photo/2020/01/13/16/58/tulip-flower-4762986_640.jpg",
+      "lienPaiement":"https://buy.stripe.com/test_dR63g76gR3Oj94Q4go"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "disponible": true,
       "favorie": true,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://cdn.pixabay.com/photo/2021/08/25/15/53/lily-6573856_640.jpg",
+      "lienPaiement":"https://buy.stripe.com/test_dR6bMD48JckP4OA6ox"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "disponible": true,
       "favorie": true,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://cdn.pixabay.com/photo/2023/08/01/17/17/peony-8163428_640.jpg",
+      "lienPaiement":"https://buy.stripe.com/test_3cs3g79t370v6WI5kq"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "disponible": true,
       "favorie": false,
       "stock": 5,
-      "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp"
+      "image": "https://cdn.pixabay.com/photo/2018/07/31/23/03/lavender-3576129_640.jpg",
+      "lienPaiement":"https://buy.stripe.com/test_3csdULdJj2Kfgxi7sx"
     }
   ]
 }

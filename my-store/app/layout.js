@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./Style/style.css";
+import ".././style.css";
 import "bootstrap/dist/css/bootstrap.css";
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -17,3 +17,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

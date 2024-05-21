@@ -1,37 +1,64 @@
-import Link from "next/link";
- 
- 
-export default function BarreDeRecherche(){
+"use client"
+
+import React, { useState } from 'react';
+
+export default function BarreDeRecherche({ onSearch }) 
+{
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const handleChange = (event) => 
+    {
+        const term = event.target.value.trim();
+
+        setSearchTerm(term);
+
+        onSearch(term); 
+    };
+
     return (
+
         <div className="container-fluid">
-            <div className="row align-middle  zoneDeRecherche">
+
+            <div className="row align-middle zoneDeRecherche">
+
                 <div className="col-12 col-lg-7">
-                    <nav className="navbar navbar-light ">
+
+                    <nav className="navbar navbar-light">
+
                         <div className="container-fluid">
+
                             <form className="d-flex">
-                                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button className="btn btn-outline-success" id="search" type="submit">Search</button>
+
+                                <input
+
+                                    className="form-control me-2"
+
+                                    type="search"
+
+                                    name="nom"
+
+                                    placeholder="Entrez un nom"
+
+                                    aria-label="Search"
+
+                                    value={searchTerm}
+                                    
+                                    onChange={handleChange}
+
+                                />
+
+                                <button className="btn btn-outline-success" type="button">Rechercher</button>
+
                             </form>
+
                         </div>
+
                     </nav>
+
                 </div>
-                <div className="col-6 col-lg-1 h6 text-end">
-                    trier par :
-                </div>
-                <div className="col-6 col-lg-4 dropdown">
-                    <button className="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        select
-                    </button>
-                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><Link className="dropdown-item" href="#">Action</Link></li>
-                        <li><Link className="dropdown-item" href="#">Another action</Link></li>
-                        <li><Link className="dropdown-item" href="#">Something else here</Link></li>
-                    </ul>
-                </div>
- 
+
             </div>
+
         </div>
     );
 }
- 

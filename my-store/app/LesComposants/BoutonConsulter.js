@@ -1,14 +1,22 @@
 
 import Link from "next/link";
-function BoutonConsulter( {id} ) {
+function BoutonConsulter( {id} ) 
+{
   return <>
-    <div  className="col-md-6  ">
+    <div  className="col-md-6 d-flex  justify-content-center">
+
     <Link href={`/uneFleur/${id}`} className="card-link"> 
+
       <button className="btn-consAjout">
-       Consulter le produit
+
+       Consulter 
+
       </button>
+
       </Link>
+
     </div>
+    
     </>
     
   }

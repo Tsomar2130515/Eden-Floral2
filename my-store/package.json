@@ -5,21 +5,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "sass": "sass style.sass style.css",
     "start": "next start",
-    "lint": "next lint",
-    "sass": "sass --watch styles.sass:styles.css"
+    "lint": "next lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "and": "^0.0.3",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "next": "14.2.2",
+    "raw-body": "^2.5.2",
     "react": "^18",
     "react-bootstrap-icons": "^1.11.4",
     "react-dom": "^18",
     "react-router-dom": "^6.22.3",
+    "stripe": "^15.6.0",
+    "stripe-cli": "^0.1.0"
+  },
+  "devDependencies": {
     "sass": "^1.77.2"
   }
 }

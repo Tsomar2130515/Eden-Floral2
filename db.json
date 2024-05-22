@@ -51,7 +51,7 @@
       "prix": 1.99,
       "disponible": true,
       "favorie": false,
-      "stock": 5,
+      "stock": 4,
       "image": "https://www.veronneau.com/wp-content/uploads/2024/02/PIVOINE-ROSE-ARTIFICIELLE-AVEC-BOURGEONS-245-MTF23799PINK.jpg.webp",
       "lienPaiement": "https://buy.stripe.com/test_3csdULdJj2Kfgxi7sx"
     }

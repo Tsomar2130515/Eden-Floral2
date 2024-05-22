@@ -1,6 +1,5 @@
 import Header from '../LesComposants/Header';
 import Footer from '../LesComposants/Footer';
-import BarreDeRecherche from '../LesComposants/BarreDeRecherche';
 import BandePromotionnel from '../LesComposants/BandePromotionnel';
 
 export default function Home(){
@@ -8,10 +7,8 @@ export default function Home(){
     <main>
       <Header />
       <BandePromotionnel />
-      <BarreDeRecherche />
-
       <div className="background-image2 ">
-        <h1>Découvrez nos créations florales</h1>
+        <h1 id="TitreInspi">Découvrez nos créations florales</h1>
         <div className="creations-grid">
           <div className="creation-card">
             <img src="https://images.pexels.com/photos/6707632/pexels-photo-6707632.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Création florale 1" />

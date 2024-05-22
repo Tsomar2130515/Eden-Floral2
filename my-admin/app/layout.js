@@ -1,6 +1,7 @@
 
-import "./Style/style.css";
+/* import "./Style/style.css"; */
 import "bootstrap/dist/css/bootstrap.css";
+import "../app/Style.css";
 
 
 

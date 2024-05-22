@@ -23,7 +23,7 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav d-flex justify-content-between flex-grow-1">
                             <li className="nav-item">
-                            <button className=" me-5 header-link parisienne-font"  id="home" aria-current="page" onClick={() => router.push("/")}>Acceuil</button>
+                            <button className=" me-5 header-link parisienne-font"  id="home" aria-current="page" onClick={() => router.push("./inventaire")}>Acceuil</button>
                                 
                             </li>
                             <li className="nav-item">

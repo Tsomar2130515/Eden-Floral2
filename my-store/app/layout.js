@@ -1,7 +1,8 @@
 import { Inter } from "next/font/google";
-import "./Style/style.css";
+/* import "./Style/style.css"; */
 import "bootstrap/dist/css/bootstrap.css";
 import '@fortawesome/fontawesome-free/css/all.css'
+import "../app/style.css"
 
 
 
